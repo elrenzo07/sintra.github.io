@@ -1,0 +1,45 @@
+.text-center {
+    text-align: center;
+    margin: auto;
+}
+
+.container {
+    min-width: 300px;
+    margin: auto;
+    overflow: hidden;
+    padding: 4rem 1rem;
+
+}
+.services .title{
+    margin: 100px;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.services {
+    padding: 2.2rem;
+}
+
+.services .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.bg-light{
+    background-color: #FFF;
+    color: #282829;
+}
+.bg-dark {
+    background-color: #282829;
+    color: #fff
+}
+
+.footer {
+    padding: 50px;
+    
+}
+.footer p {
+    font-size: 16px;
+    margin: 0px;
+}

@@ -1,0 +1,61 @@
+body {background-color: #282829;
+color: #fff;
+margin: 0px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.header::after {
+    content: '';
+    height: 500px;
+    width: 100%;
+    background-image: url("imagenes/engineering.png");
+    background-size: cover;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(10px); 
+    -webkit-filter: blur(10px);
+    transition: filter 1s, opacity 1s;
+
+}
+
+.header:hover::after {
+    filter: blur(0px);
+    -webkit-filter: blur(0px); 
+    opacity: 1;
+    transition: filter 1s, opacity 1s;
+    
+}
+
+.header .header-content:hover {
+    filter: blur(1px);
+    -webkit-filter: blur(1px); 
+    opacity: 0.2;
+    transition: filter 1s, opacity 1s;
+}
+.header-content {
+    position: absolute;
+    z-index: 10;
+    top: 10%;
+    left: 35%;
+
+    margin-top: 30px;
+    margin-left: auto;
+    text-align: center;
+    justify-content: center;
+    width: 400px;
+    opacity: 1;
+    transition: filter 1s, opacity 1s;
+}
+.header-content p {
+    color: #000;
+    font-size: 16px;
+}
+.header-content h3 {
+    color: #000;
+    font-size: 20px;
+}
+.header-content img {
+    width: 400px;
+   
+}
